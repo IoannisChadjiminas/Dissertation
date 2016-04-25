@@ -1,0 +1,13 @@
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'main' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <div id="container"> </div>
+    {% render_bundle 'main' %}
+</body>
+</html>
